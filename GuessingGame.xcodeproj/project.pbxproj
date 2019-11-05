@@ -13,6 +13,7 @@
 		E1A5D3822371CB76003A8F55 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E1A5D3802371CB76003A8F55 /* Main.storyboard */; };
 		E1A5D3842371CB7A003A8F55 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E1A5D3832371CB7A003A8F55 /* Assets.xcassets */; };
 		E1A5D3872371CB7A003A8F55 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E1A5D3852371CB7A003A8F55 /* LaunchScreen.storyboard */; };
+		E1A5D38F2371CFBE003A8F55 /* GuessingGameModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1A5D38E2371CFBE003A8F55 /* GuessingGameModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		E1A5D3832371CB7A003A8F55 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E1A5D3862371CB7A003A8F55 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E1A5D3882371CB7A003A8F55 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E1A5D38E2371CFBE003A8F55 /* GuessingGameModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GuessingGameModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,13 +58,14 @@
 		E1A5D3792371CB76003A8F55 /* GuessingGame */ = {
 			isa = PBXGroup;
 			children = (
+				E1A5D3882371CB7A003A8F55 /* Info.plist */,
 				E1A5D37A2371CB76003A8F55 /* AppDelegate.swift */,
+				E1A5D38E2371CFBE003A8F55 /* GuessingGameModel.swift */,
 				E1A5D37C2371CB76003A8F55 /* SceneDelegate.swift */,
 				E1A5D37E2371CB76003A8F55 /* ViewController.swift */,
-				E1A5D3802371CB76003A8F55 /* Main.storyboard */,
 				E1A5D3832371CB7A003A8F55 /* Assets.xcassets */,
 				E1A5D3852371CB7A003A8F55 /* LaunchScreen.storyboard */,
-				E1A5D3882371CB7A003A8F55 /* Info.plist */,
+				E1A5D3802371CB76003A8F55 /* Main.storyboard */,
 			);
 			path = GuessingGame;
 			sourceTree = "<group>";
@@ -140,6 +143,7 @@
 			files = (
 				E1A5D37F2371CB76003A8F55 /* ViewController.swift in Sources */,
 				E1A5D37B2371CB76003A8F55 /* AppDelegate.swift in Sources */,
+				E1A5D38F2371CFBE003A8F55 /* GuessingGameModel.swift in Sources */,
 				E1A5D37D2371CB76003A8F55 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
